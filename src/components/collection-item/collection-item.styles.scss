@@ -11,14 +11,17 @@
         background-size: cover;
         background-position: center;
         margin-bottom: 5px;
+        border-radius: 6px;
+        border: 2px solid #625f5e;
     }
 
     .collection-footer {
-        width: 100%;
+        width: 96%;
         height: 5%;
         display: flex;
         justify-content: space-between;
         font-size: 18px;
+        color: #34302c;
 
         .name {
             width: 90%;

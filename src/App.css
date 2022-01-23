@@ -1,4 +1,11 @@
 body {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
     padding: 20px 60px;
+    background-color: #9c958e;
+}
+
+a {
+    text-decoration: none;
+    color: #34302c;;
+    cursor: pointer;
 }
