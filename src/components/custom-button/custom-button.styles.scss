@@ -1,0 +1,25 @@
+@import '../../styles/variables.scss';
+
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: $text-color;
+  color: #bec2cb;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #bec2cb;
+    color: $text-color;
+    border: 1px solid #625f5e
+  }
+}

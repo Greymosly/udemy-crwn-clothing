@@ -1,0 +1,24 @@
+@import '../../styles/variables.scss';
+
+.sign-in {
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+
+    .title {
+        margin: 10px 0;
+    }
+    
+    h2 {
+        color: $text-color;
+    }
+
+    span {
+        color: $text-color;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: space-between;
+    }
+}
